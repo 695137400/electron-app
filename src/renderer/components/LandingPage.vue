@@ -1,5 +1,5 @@
 <template>
-  <div style="overflow: hidden;background-color: red;height: calc(100% - 40px)">
+  <div style="overflow: hidden;height: calc(100% - 40px)">
     <div id="wrapper" style="overflow: auto;">
       <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
       <main>
@@ -18,12 +18,12 @@
               internal configurations, using the project structure, building your application,
               and so much more.
             </p>
-            <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
+            <el-button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</el-button><br><br>
           </div>
           <div class="doc">
             <div class="title alt">Other Documentation</div>
-            <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
-            <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
+            <el-button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</el-button>
+            <el-button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</el-button>
           </div>
         </div>
       </main>
@@ -56,12 +56,6 @@
   body { font-family: 'Source Sans Pro', sans-serif; }
 
   #wrapper {
-    background:
-      radial-gradient(
-        ellipse at top left,
-        rgba(255, 255, 255, 1) 40%,
-        rgba(229, 229, 229, .9) 100%
-      );
     height: 100vh;
     padding: 60px 80px;
     width: 100vw;
@@ -92,7 +86,6 @@
   }
 
   .title {
-    color: #2c3e50;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 6px;
@@ -104,7 +97,6 @@
   }
 
   .doc p {
-    color: black;
     margin-bottom: 10px;
   }
 
@@ -115,15 +107,7 @@
     padding: 0.75em 2em;
     border-radius: 2em;
     display: inline-block;
-    color: #fff;
-    background-color: #4fc08d;
     transition: all 0.15s ease;
     box-sizing: border-box;
-    border: 1px solid #4fc08d;
-  }
-
-  .doc button.alt {
-    color: #42b983;
-    background-color: transparent;
   }
 </style>

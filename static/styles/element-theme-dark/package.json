@@ -1,0 +1,52 @@
+{
+  "_from": "element-theme-dark",
+  "_id": "element-theme-dark@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-beQz8Q9ihsoVdoJ/C6/uNM4SotU=",
+  "_location": "/element-theme-dark",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "element-theme-dark",
+    "name": "element-theme-dark",
+    "escapedName": "element-theme-dark",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/element-theme-dark/download/element-theme-dark-1.0.3.tgz",
+  "_shasum": "6de433f10f6286ca1576827f0bafee34ce12a2d5",
+  "_spec": "element-theme-dark",
+  "_where": "/media/lzc/Sdcard/workspace/nodejs/electron-app",
+  "author": {
+    "name": "Misak Poghosyan"
+  },
+  "bugs": {
+    "url": "https://github.com/Arattian/element-theme-dark/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Element UI dark theme",
+  "homepage": "https://github.com/Arattian/element-theme-dark#readme",
+  "keywords": [
+    "element-ui",
+    "npm",
+    "package",
+    "dark",
+    "theme",
+    "aratta"
+  ],
+  "license": "MIT",
+  "main": "lib/index.css",
+  "name": "element-theme-dark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arattian/element-theme-dark.git"
+  },
+  "version": "1.0.3"
+}

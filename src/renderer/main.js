@@ -1,26 +1,21 @@
-import Vue from 'vue'
-import axios from 'axios'
+import Vue from 'vue';
+import Element from 'element-ui';
+import '/static/styles/element-variables.scss';
+//import 'normalize.css/normalize.css'
+import '/static/styles/index.scss';
+import '/static/icons' // icon
+import App from './App';
+import locale from 'element-ui/lib/locale/lang/zh-CN';
+import $ from 'jquery';
 
-import Element from 'element-ui'
-import './styles/element-variables.scss'
-import 'normalize.css/normalize.css'
-import '@/styles/index.scss'
-import './icons' // icon
-import App from './App'
-import store from './store'
-import locale from 'element-ui/lib/locale/lang/zh-CN'
-import $ from 'jquery'
 
-Vue.http = Vue.prototype.$http = axios
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 Vue.use(Element, {
-  locale,
-})
-
+    locale,
+});
 /* eslint-disable no-new */
 new Vue({
-  components: { App },
-  store,
-  template: '<App/>'
-}).$mount('#app')
+    components: {App},
+    template: '<App/>'
+}).$mount('#app');
